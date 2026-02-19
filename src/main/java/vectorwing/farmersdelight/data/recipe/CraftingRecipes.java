@@ -31,7 +31,7 @@ public class CraftingRecipes
 		recipesFoodBlocks(output);
 		recipesCraftedMeals(output);
 		SpecialRecipeBuilder.special(FoodServingRecipe::new).save(output, FarmersDelight.MODID + ":food_serving");
-		SpecialRecipeBuilder.special(DoughRecipe::new).save(output, FarmersDelight.MODID + ":wheat_dough_from_water");
+		//SpecialRecipeBuilder.special(DoughRecipe::new).save(output, FarmersDelight.MODID + ":wheat_dough_from_water");
 	}
 
 	public static void canvasSignDyeing(RecipeOutput output, ItemLike canvasSign, ItemLike hangingCanvasSign, TagKey<Item> dyeTag) {
