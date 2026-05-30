@@ -15,14 +15,20 @@ public class CompatibilityTags
 {
 	// Create
 	public static final String CREATE = "create";
-	public static final TagKey<Block> CREATE_PASSIVE_BOILER_HEATERS = externalBlockTag(CREATE, "passive_boiler_heaters");
 	public static final TagKey<Block> CREATE_BRITTLE = externalBlockTag(CREATE, "brittle");
+	public static final TagKey<Block> CREATE_FAN_TRANSPARENT = externalBlockTag(CREATE, "fan_transparent");
+	public static final TagKey<Block> CREATE_PASSIVE_BOILER_HEATERS = externalBlockTag(CREATE, "passive_boiler_heaters");
 	public static final TagKey<Item> CREATE_UPRIGHT_ON_BELT = externalItemTag(CREATE, "upright_on_belt");
 
 	// Create Crafts and Additions
 	public static final String CREATE_CA = "createaddition";
 	public static final TagKey<Item> CREATE_CA_PLANT_FOODS = externalItemTag(CREATE_CA, "plant_foods");
 	public static final TagKey<Item> CREATE_CA_PLANTS = externalItemTag(CREATE_CA, "plants");
+
+	// Sable
+	public static final String SABLE = "sable";
+	public static final TagKey<Block> SABLE_SUPER_LIGHT = externalBlockTag(SABLE, "super_light");
+	public static final TagKey<Block> SABLE_LIGHT = externalBlockTag(SABLE, "light");
 
 	// Origins
 	public static final String ORIGINS = "origins";
